@@ -1,0 +1,18 @@
+debug: false
+uuid: 3d816fd4-5b28-43b2-8931-f2369b67b774
+token_id: difB8i2WwcLfWoUy
+token: 2aCF0RoA9BoBaBRAQJKdU6Kr2GBHofzAdAlftLy1jCxqHuaTg0HKxOtPnyRJf4sr
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/indrahost.chickenkiller.com/fullchain.pem
+    key: /etc/letsencrypt/live/indrahost.chickenkiller.com/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://organic-disco-97q4g94xp95vfpxr5-80.app.github.dev'
